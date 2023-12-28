@@ -10,15 +10,14 @@ def clear():
     else:
         _ = system('clear')
 clear()
-print(' iD Tech: PGN,  Portable Game Notation')
+print(' PGN,  Portable Game Notation')
 print('---------------------------------------')
 
 # Pygame Initializations
 pygame.init()
 pygame.font.init()
 pygame.display.init()
-pygame.display.set_caption(G.ID_TECH_TITLE)
-pygame.display.set_icon(G.ID_TECH_LOGO)
+pygame.display.set_caption(G.TITLE)
 
 # Load Chess Game Pieces
 w_king_img = pygame.image.load('images/w_king.png')
