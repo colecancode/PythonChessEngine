@@ -1,5 +1,3 @@
-# iD Tech: Python Chess AI, 2022
-
 # Import Modules & Libraries
 import global_vars as G
 import display_gui as gui
